@@ -1,0 +1,19 @@
+# Real-time Collaborative Editor
+
+A real-time collaborative text editor built with React, Node.js, Socket.IO, and MongoDB.
+
+## Features
+- Live collaboration between users
+- Rich-text editing with React Quill
+- Real-time updates via WebSockets
+- MongoDB document storage
+
+## Getting Started
+
+1. Open two terminals:
+   - In `/backend`: `node server.js`
+   - In `/frontend-fixed`: `npm start`
+
+2. Visit `http://localhost:3000`
+
+3. Changes sync live between editors!
